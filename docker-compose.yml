@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  skillup-api:
+    build: .
+    container_name: skillup-api
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    
+    environment:
+      SPRING_PROFILES_ACTIVE: "prod"
+
+      # Configuração do Oracle FIAP
+      SPRING_DATASOURCE_URL: "jdbc:oracle:thin:@//oracle.fiap.com.br:1521/orcl"
+      SPRING_DATASOURCE_USERNAME: "rm560027"
+      SPRING_DATASOURCE_PASSWORD: "270304"
