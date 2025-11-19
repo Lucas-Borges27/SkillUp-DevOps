@@ -4,9 +4,9 @@ SkillUp é uma plataforma completa de requalificação profissional que ajuda pe
 O objetivo do projeto é oferecer uma solução simples, acessível e escalável para apoiar pessoas em processos de requalificação. Além das funcionalidades de CRUD, a aplicação também provê relatórios, filtros e integrações que podem ser usadas por microserviços externos.
 
 ## Integrantes
-Bruno Carlos Soares – RM 559250: testes funcionais, QA dos endpoints e apoio na validação de regras.
-Lucas Borges de Souza – RM 560027: desenvolvimento da API Spring Boot (controllers, serviços, segurança) e integrações.
-Pedro Henrique Rodrigues – RM 560393: documentação, diagramas, organização do repositório e preparação de materiais de apoio.
+- Bruno Carlos Soares – RM 559250: 
+- Lucas Borges de Souza – RM 560027: 
+- Pedro Henrique Rodrigues – RM 560393: 
 
 ## Vídeo de apresentação
 https://youtu.be/3hpxwZli2kY?si=s6yuTLSgUr45mRD
@@ -15,7 +15,7 @@ https://youtu.be/3hpxwZli2kY?si=s6yuTLSgUr45mRD
 • Visual Studio Code
 • Extensões: ES7 React, Prettier, REST Client
 • Expo Go (se usar mobile)
-_
+
 
 ## Como executar o Docker da API Java na VM Linux
 
