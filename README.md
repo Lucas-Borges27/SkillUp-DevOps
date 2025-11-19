@@ -20,55 +20,55 @@ https://youtu.be/3hpxwZli2kY?si=s6yuTLSgUr45mRD
 ## Como executar o Docker da API Java na VM Linux
 
 1. Atualize a máquina:
-sudo apt update && sudo apt upgrade -y
+ sudo apt update && sudo apt upgrade -y
 
 2. Instale o Docker:
-sudo apt install docker.io -y
-sudo systemctl enable --now docker
+ sudo apt install docker.io -y
+ sudo systemctl enable --now docker
 
 3. Baixe ou copie a imagem da API (dependendo do seu pipeline SkillUp-DevOps):
-git clone https://github.com/SEU-USUARIO/skillup-devops.git
-cd skillup-devops
+ git clone https://github.com/Lucas-Borges27/SkillUp-DevOps.git
+ cd skillup-devops
 
 4. Execute a API:
-docker-compose up -d --build
+ docker-compose up -d --build
 
 5. Acesse no navegador:
-http://<ip-da-vm-linux>:8080/swagger
+ http://<ip-da-vm-linux>:8080/swagger
 
 6. Para ver logs:
-docker logs -f skillup
+ docker logs -f skillup
 
  
 ## Como configurar a VM Windows para o front-end
 A VM Windows é usada para desenvolver e executar o front-end (web ou mobile). Configurar assim:
 
 1. Instalar o Node.js LTS
-Baixe pelo site oficial:
-https://nodejs.org
-Ou via pacote MSI.
+ Baixe pelo site oficial:
+ https://nodejs.org
+ Ou via pacote MSI.
 
 2. Instalar Git
-https://git-scm.com/download/win
+ https://git-scm.com/download/win
 
 3. Clonar o projeto do front-end
-git clone https://github.com/PedroFIAP-tech/SkillHub.git
-cd SkillHub
+ git clone https://github.com/PedroFIAP-tech/SkillHub.git
+ cd SkillHub
 
 4. Instalar dependências do projeto
-npm install
-ou
-yarn install
+ npm install
+ ou
+ yarn install
 
 5. Rodar o front-end (exemplos):
-React Web:
-npm start
+ React Web:
+ npm start
 
 6. React Native (Expo):
-npx expo start
-Escolher:
-• “a” para abrir no Android
-• “w” para abrir no navegador
-• escanear QR Code no celular
+ npx expo start
+ Escolher:
+ • “a” para abrir no Android
+ • “w” para abrir no navegador
+ • escanear QR Code no celular
 
 
