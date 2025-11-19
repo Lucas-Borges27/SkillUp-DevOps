@@ -12,9 +12,9 @@ O objetivo do projeto é oferecer uma solução simples, acessível e escalável
 https://youtu.be/3hpxwZli2kY?si=s6yuTLSgUr45mRD
 
 ## Instalar ferramentas ideais para front-end:
-• Visual Studio Code
-• Extensões: ES7 React, Prettier, REST Client
-• Expo Go (se usar mobile)
+- Visual Studio Code
+- Extensões: ES7 React, Prettier, REST Client
+- Expo Go (se usar mobile)
 
 
 ## Como executar o Docker da API Java na VM Linux
@@ -39,7 +39,6 @@ http://<ip-da-vm-linux>:8080/swagger
 6. Para ver logs:
 docker logs -f skillup
 
-_
  
 ## Como configurar a VM Windows para o front-end
 A VM Windows é usada para desenvolver e executar o front-end (web ou mobile). Configurar assim:
