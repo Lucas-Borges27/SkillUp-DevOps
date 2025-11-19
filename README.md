@@ -9,7 +9,7 @@ O objetivo do projeto é oferecer uma solução simples, acessível e escalável
 - Pedro Henrique Rodrigues – RM 560393: 
 
 ## Vídeo de apresentação
-https://youtu.be/3hpxwZli2kY?si=s6yuTLSgUr45mRD
+ https://youtu.be/tDjfRZeAftE
 
 ## Instalar ferramentas ideais para front-end:
 - Visual Studio Code
@@ -62,7 +62,7 @@ A VM Windows é usada para desenvolver e executar o front-end (web ou mobile). C
 
 5. Rodar o front-end (exemplos):
  React Web:
- npm start
+ npmx expo start
 
 6. React Native (Expo):
  npx expo start
