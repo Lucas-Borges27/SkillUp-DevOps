@@ -53,8 +53,8 @@ Ou via pacote MSI.
 https://git-scm.com/download/win
 
 3. Clonar o projeto do front-end
-git clone https://github.com/SEU_REPOSITORIO_FRONTEND.git
-cd frontend
+git clone https://github.com/PedroFIAP-tech/SkillHub.git
+cd SkillHub
 
 4. Instalar dependências do projeto
 npm install
